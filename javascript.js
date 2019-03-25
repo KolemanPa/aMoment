@@ -4,11 +4,10 @@ const chalk = require('chalk');
 require("moment");
 
 // Formats the three variables a,b,c and assigns a real time value
-// var a = moment().format('HH');
+var a = moment().format('HH');
 var c = moment().format('dddd');
 var b = moment().format('HH:MM:s a')
 console.log(`The Time is ${b} on a ${c}`);
-var a = 27;
 time();
 
 // If statements to determine what time it is
